@@ -1,4 +1,4 @@
-export const BASE_PATH = process.env.WEATHER_APP_PATH || "";
+export const BASE_PATH = "https://juan-edge-function-test.netlify.app/";
 
 const HEADER_PREFIX = "geo";
 
