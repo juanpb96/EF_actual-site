@@ -1,4 +1,4 @@
-export const BASE_PATH = "https://juan-edge-function-test.netlify.app/";
+export const BASE_PATH = "";
 
 const HEADER_PREFIX = "geo";
 
