@@ -8,6 +8,7 @@ export default async function handler(request: Request, context: Context) {
   request.headers.set(GEO_HEADERS.latitude, String(latitude ?? 0));
   request.headers.set(GEO_HEADERS.longitude, String(longitude ?? 0));
   console.log(request.url);
+  console.log("Is there a header?", request.headers.get("x-geo-context"));
 }
 
 export const config: Config = {

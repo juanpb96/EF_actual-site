@@ -1,4 +1,4 @@
-export const BASE_PATH = "";
+export const BASE_PATH = "/test";
 
 const HEADER_PREFIX = "geo";
 
